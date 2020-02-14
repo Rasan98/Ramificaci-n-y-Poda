@@ -12,7 +12,7 @@ El algoritmo de ramificación y poda consiste en recorrer todas las posibles sol
 * __Envasado.java:__ contiene el código del algoritmo. Hay tres versiones, para poder comparar datos entre ellas:
   * Sin cotas: no se utilizan cotas en el algoritmo. Expandirá muchos más nodos, tendrá un mayor tiempo de ejecución, pero un menor tiempo medio por nodo.
   * Cotas malas: usa una cota optimista y pesimista muy fácil de calcular, pero demasiado optimista/pesimista, por lo que no podará mucho el árbol de soluciones. 
-  * Cotas buenas: usa una cota optimista y pesimista más difícil de calcular, aumentadno el tiempo medio por nodo, pero podará mucho el árbol de soluciones, disminuyendo el número de nodos expandidos y disminuyendo el tiempo de ejecución.
+  * Cotas buenas: usa una cota optimista y pesimista más difícil de calcular, aumentando el tiempo medio por nodo, pero podará mucho el árbol de soluciones, disminuyendo el número de nodos expandidos y el tiempo de ejecución.
 
 ## Análisis 
 
